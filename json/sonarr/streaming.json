@@ -1,0 +1,47 @@
+{
+    "_trash_id": "a0e7774a471e041d4f1111e0690244d0",
+    "name": "Release Sources (Streaming Service)",
+    "mustContain": [],
+    "mustNotContain": [],
+    "includePreferredWhenRenaming": true,
+    "preferred": [
+        {
+            "score": 100,
+            "terms": [
+                "/\\b(amzn|amazon)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(atvp|aptv)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(hmax)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+            ]
+        },
+        {
+            "score": 95,
+            "terms": [
+                "/\\b(sho)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+            ]
+        },
+        {
+            "score": 90,
+            "terms": [
+                "/\\b(dsnp|dsny|disney)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(nf|netflix)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(qibi)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+            ]
+        },
+        {
+            "score": 85,
+            "terms": [
+                "/\\b(hulu)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(pcok)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+            ]
+        },
+        {
+            "score": 75,
+            "terms": [
+                "/\\b(dcu)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(hbo)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(red)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i",
+                "/\\b(it)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)/i"
+            ]
+        }
+    ]
+}

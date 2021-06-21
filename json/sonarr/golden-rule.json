@@ -1,0 +1,9 @@
+{
+    "name": "Golden rule",
+    "mustContain": [
+        "/(?=(1080|720)).*((x|h)[ ._-]?265|hevc)/i"
+    ],
+    "mustNotContain": [],
+    "includePreferredWhenRenaming": false,
+    "preferred": []
+}

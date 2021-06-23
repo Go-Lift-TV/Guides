@@ -80,7 +80,7 @@ The Number between the **[**brackets**]** are the scores the release name will g
 !!! important
     We're going to make use of 2 separate release profiles.
 
---8<-- "docs/Sonarr/generated/streaming.mdt"
+--8<-- "generated/streaming.mdt"
 
 ??? success "example"
 
@@ -98,7 +98,7 @@ The Number between the **[**brackets**]** are the scores the release name will g
 
 ## Second Release Profile
 
---8<-- "docs/Sonarr/generated/golden-rule.mdt"
+--8<-- "generated/golden-rule.mdt"
 
 ??? success "example"
 
@@ -136,7 +136,7 @@ The Number between the **[**brackets**]** are the scores the release name will g
 
 ------
 
---8<-- "docs/Sonarr/generated/p2p.mdt"
+--8<-- "generated/p2p.mdt"
 
 ??? success "example"
 
@@ -152,7 +152,7 @@ The Number between the **[**brackets**]** are the scores the release name will g
 
 ------
 
---8<-- "docs/Sonarr/generated/low-quality.mdt"
+--8<-- "generated/low-quality.mdt"
 
 ??? success "example"
 

@@ -7,7 +7,7 @@ import pathlib
 # This is executed by `mkdocs` and the `mkdocs-simple-hooks` plugin (invoked from mkdocs.yml).
 
 source_dir="docs/json/sonarr"
-output_dir="docs/Sonarr/generated/"
+output_dir="generated/"
 
 def sonarr_markdown(*args, **kwargs):
     pathlib.Path(output_dir).mkdir(parents=True, exist_ok=True)
